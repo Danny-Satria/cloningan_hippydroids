@@ -31,7 +31,7 @@ body {
   width: 3px;
   height: 288px;
   position: absolute;
-  top: 5em;
+  top: 10em;
   left: 26.2em;
   background-color: #32679d;
 }
@@ -40,28 +40,52 @@ body {
   display: inline-block;
   width: 3px;
   height: 288px;
-  background-color: #32679d;
   position: absolute;
+  top: 10em;
+  left: 59em;
+  background-color: #32679d;
 }
 
 /* icon */
 .icon {
   position: relative;
-  border: 1px solid red;
   width: 23em;
-  top: -37em;
-  left: 3em;
+  top: -11.5em;
+  left: 61.9em;
+}
+
+.discord,
+.youtube,
+.tiktok,
+.support,
+.trakteer,
+.instagram,
+.twitter,
+.spotify {
+  transition: all ease-in-out 0.3s;
+}
+
+.discord:hover,
+.youtube:hover,
+.tiktok:hover,
+.support:hover,
+.trakteer:hover,
+.instagram:hover,
+.twitter:hover,
+.spotify:hover {
+  transform: scale(1.1);
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
 }
 /* icon */
 
 /* description */
 .description {
-  border: 1px solid red;
   position: relative;
   width: 27em;
   height: 20rem;
-  left: 28rem;
-  top: 5rem;
+  left: 28.5rem;
+  top: 5.2rem;
 }
 
 .title {
