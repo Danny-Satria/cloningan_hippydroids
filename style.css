@@ -28,16 +28,20 @@ body {
 
 .line1 {
   display: inline-block;
-  width: 1px;
-  height: 400px;
-  background-color: white;
+  width: 3px;
+  height: 288px;
+  position: absolute;
+  top: 5em;
+  left: 26.2em;
+  background-color: #32679d;
 }
 
 .line2 {
   display: inline-block;
-  width: 1px;
-  height: 400px;
-  background-color: white;
+  width: 3px;
+  height: 288px;
+  background-color: #32679d;
+  position: absolute;
 }
 
 /* icon */
@@ -46,7 +50,7 @@ body {
   border: 1px solid red;
   width: 23em;
   top: -37em;
-  left: 61.9em;
+  left: 3em;
 }
 /* icon */
 
@@ -104,15 +108,7 @@ body {
 }
 
 .coba:hover {
-  background: linear-gradient(
-    40deg,
-    rgba(164, 100, 164, 1),
-    rgba(59, 93, 173, 1)
-  );
+  background: linear-gradient(40deg, rgb(199, 117, 199), rgb(52, 81, 150));
   transform: scale(1.1);
   transition: all ease-in-out 0.3s;
-}
-
-.coba::before:hover {
-  content: none;
 }
