@@ -159,3 +159,9 @@ body {
 }
 
 /* Watermark */
+
+/* Animate CSS */
+.youtube .animate_animated {
+  --animate-delay: 0.9s;
+}
+/* Animate CSS */
