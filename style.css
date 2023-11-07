@@ -77,6 +77,17 @@ body {
   transition: all ease-in-out 0.3s;
   cursor: pointer;
 }
+.discord:active,
+.youtube:active,
+.tiktok:active,
+.support:active,
+.trakteer:active,
+.instagram:active,
+.twitter:active,
+.spotify:active {
+  transform: scale(0.8);
+  transition: all ease-in-out 0.2s;
+}
 /* icon */
 
 /* description */
@@ -113,26 +124,38 @@ body {
 }
 /* description */
 
+/* Watermark */
+.watermark {
+  color: #85b2d4;
+  position: absolute;
+  font-size: 0.9em;
+  letter-spacing: -0.9px;
+  word-spacing: 2px;
+  top: 33em;
+  left: 43.4em;
+}
+
 .coba {
-  width: 6.5em;
+  width: 9.5em;
   height: 2em;
-  background-color: transparent;
+  background: linear-gradient(40deg, rgb(199, 117, 199), rgb(52, 81, 150));
   border: none;
-  transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.3s;
   border-radius: 3.25em;
-  transition: all ease-in-out 0.5s;
-}
-
-.coba::before {
-  content: "( ";
-}
-
-.coba::after {
-  content: " )";
+  opacity: 0;
+  word-spacing: 2px;
+  color: white;
+  position: absolute;
+  top: 35.4em;
+  left: 46.3em;
 }
 
 .coba:hover {
   background: linear-gradient(40deg, rgb(199, 117, 199), rgb(52, 81, 150));
   transform: scale(1.1);
   transition: all ease-in-out 0.3s;
+  opacity: 1;
+  color: white;
 }
+
+/* Watermark */
