@@ -164,3 +164,63 @@ body {
 }
 
 /* Watermark */
+
+.tombol {
+  width: 9.5em;
+  height: 2em;
+  background: transparent;
+  border: none;
+  transition: all ease-in-out 0.5s;
+  border-radius: 3.25em;
+  opacity: 1;
+  word-spacing: 2px;
+  color: #85b2d4;
+  position: absolute;
+  top: 35.4em;
+  left: 32em;
+  letter-spacing: -0.2px;
+}
+
+.tombol::before {
+  content: "( ";
+  opacity: 1;
+  transition: all ease-in-out 10s;
+  color: #85b2d4;
+}
+.tombol::after {
+  content: " )";
+  opacity: 1;
+  transition: all ease-in-out 10s;
+  color: #85b2d4;
+}
+
+.tombol:hover {
+  width: 9.5em;
+  height: 2em;
+  background: linear-gradient(40deg, rgb(199, 117, 199), rgb(52, 81, 150));
+  border: none;
+  transition: all ease-in-out 0.4s;
+  border-radius: 3.25em;
+  opacity: 1;
+  word-spacing: 2px;
+  color: white;
+  position: absolute;
+  top: 35.4em;
+  left: 32em;
+  transform: scale(1.1);
+  transition: all ease-in-out 0.3s;
+  cursor: pointer;
+}
+
+.tombol:hover::after {
+  content: none;
+  transition: all ease-in-out 10s;
+  opacity: 0;
+  color: #85b2d4;
+}
+.tombol:hover::before {
+  content: none;
+  transition: all ease-in-out 10s;
+  opacity: 0;
+  color: #85b2d4;
+}
